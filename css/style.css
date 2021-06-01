@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    }
+    
+    body{
+        font-family: ' Arial';
+        background-color: #fff;
+    
+    }
+    
+    header{
+        background-color: grey;
+        height:100px;
+    }
+    header img {
+        float: left;
+        padding-left: 14%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    
+    }
+    
+    header nav ul {
+     position: relative; 
+    }
+    header nav ul li{
+        display: inline-block;
+        padding: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    } 
+    
+    header nav ul li a{
+    
+    color: black;
+    text-decoration: none;
+    }
+    
+    #first {
+    padding-left: 14%;
+    padding-right: 10%;
+    padding-top: 30px;
+    
+    }
+    
+    #second img{
+       padding-left: 2%;
+       padding-top: 30px;
+       position: relative;
+       right: 12%;
+       left: 12%;
+    }
+    
+    #third img{
+        float: left;
+        padding-left: 4%;
+        padding-top: 30px;
+        position: relative;
+        right: 10%;
+        left: 10%;
+        width: 480px;
+    
+    }
+    
+    #fourth{
+        padding-right: 13%;
+        padding-top: 30px;
+        margin-left: 80px;
+        
+    
+    }
+    #fourth h3{
+        text-align: justify;
+        font-size: 22px;
+        font-weight: bold ;
+        padding-left:54.5%;
+    
+    }
+    
+    #fourth p{
+        text-align: justify;
+        font-size: 16px;
+        padding-top: 20px;
+        padding-left : 17%;
+        overflow: scroll;
+        height: 293px;
+    
+    }
+    
+    #fourth button {
+        background-color:black; 
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        position: relative;
+        left: 17%;
+        font-size: 16px;
+        border-radius: 4px;
+        border-color: gainsboro;
+        color: honeydew;
+        text-align: center;
+        
+        width: 180px;
+        cursor: pointer;
+    }
+    
+    #fourth button:hover {
+    background-color: rgb(155, 140, 147);
+    
+    }
+    
+    footer{
+        clear: both;
+        margin-top: 30px;
+        background-color: grey;
+        height: 90px;
+        
+    }
